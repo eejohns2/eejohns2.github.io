@@ -259,6 +259,15 @@ body{
         <!-- JavaScript jQuery code from Bootply.com editor  -->
         
         <script type='text/javascript'>
+        $(document).ready(function(e){
+    $('.search-panel .dropdown-menu').find('a').click(function(e) {
+		e.preventDefault();
+		var param = $(this).attr("href").replace("#","");
+		var concept = $(this).text();
+		$('.search-panel span#search_concept').text(concept);
+		$('.input-group #search_param').val(param);
+	});
+});
         
         $('#exampleModal').on('show.bs.modal', function (event) {
   var button = $(event.relatedTarget) // Button that triggered the modal
