@@ -3,38 +3,21 @@
     <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
         <meta charset="utf-8">
-        <title>Bootply snippet - Bootstrap 2 column Google maps, foursquare (outer scroll)</title>
-        <meta name="generator" content="Bootply" />
+        <title>Lost Objects</title>
+        <meta name="generator" content="Lost Objects" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="description" content="How to create a two column foursquare style layout with fixed map on the right side." />
         <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-        
-        <!--[if lt IE 9]>
-          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+       
         <link rel="apple-touch-icon" href="/bootstrap/img/apple-touch-icon.png">
         <link rel="apple-touch-icon" sizes="72x72" href="/bootstrap/img/apple-touch-icon-72x72.png">
         <link rel="apple-touch-icon" sizes="114x114" href="/bootstrap/img/apple-touch-icon-114x114.png">
 
 
 
-
-
-
-
-
-
-
-        <!-- CSS code from Bootply.com editor -->
         
         <style type="text/css">
-            /*
-A custom Bootstrap 3.1 theme from http://bootply.com\
-This CSS code should follow the 'bootstrap.css'
-in your HTML file.
-license: MIT
-author: bootply.com
-*/
+
 html,body{
   	height:100%;
 }
@@ -111,12 +94,10 @@ body{
                     	<span id="search_concept">Filter by</span> <span class="caret"></span>
                     </button>
                     <ul class="dropdown-menu" role="menu">
-                      <li><a href="#contains">Contains</a></li>
-                      <li><a href="#its_equal">It's equal</a></li>
-                      <li><a href="#greather_than">Greather than ></a></li>
-                      <li><a href="#less_than">Less than < </a></li>
+                      <li><a href="#contains">All Objects</a></li>
                       <li class="divider"></li>
-                      <li><a href="#all">Anything</a></li>
+                      <li><a href="#its_equal">Lost Objects</a></li>
+                      <li><a href="#greather_than">Found Objects ></a></li>
                     </ul>
                 </div>
                 <input type="hidden" name="search_param" value="all" id="search_param">         
@@ -126,44 +107,8 @@ body{
                 </span>
             </div>
  	</div></form>
- 	<!--
-            <form class="navbar-form">
-        <div class="form-group" style="display:inline;">
-          <div class="input-group">
-            <div class="input-group-btn">
-              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-chevron-down"></span></button>
-              <ul class="dropdown-menu">
-                <li><a href="#">Category 1</a></li>
-                <li><a href="#">Category 2</a></li>
-                <li><a href="#">Category 3</a></li>
-                <li><a href="#">Category 4</a></li>
-                <li><a href="#">Category 5</a></li> 
-              </ul>
-            </div>
-            <input type="text" class="form-control" placeholder="What are searching for?">
-            <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span> </span>
-          </div>
-        </div>
-      </form>
-      -->
+
       </div>
-      <!--
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-        	 <div class="input-group-btn">
-              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-chevron-down"></span></button>
-              <ul class="dropdown-menu">
-                <li><a href="#">Category 1</a></li>
-                <li><a href="#">Category 2</a></li>
-                <li><a href="#">Category 3</a></li>
-                <li><a href="#">Category 4</a></li>
-                <li><a href="#">Category 5</a></li> 
-              </ul>
-            </div>
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>-->
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Logout</a></li>
         <li class="dropdown">
